@@ -28,7 +28,7 @@ RUN mv wordpress /var/www/html/
 COPY ./srcs/wp-config.php /var/www/html/wordpress
 
 #ssl-cert
-RUN openssl req -x509 -nodes -days 365 -newkey rsa:2048 -subj '/C=RU/ST=Kazan/L=Kazan/O=jmogo/CN=jmogo' -keyout /etc/ssl/certs/localhost.key -out /etc/ssl/certs/localhost.crt
+RUN openssl req -x509 -nodes -days 365 -newkey rsa:2048 -subj '/C=RU/ST=Kazan/L=Kazan/O=jmogo/CN=jmogo' -keyout /etc/nginx/localhost-key.pem -out /etc/nginx/localhost.pem
 
 COPY ./srcs/init.sh /root
 CMD bash /root/init.sh
