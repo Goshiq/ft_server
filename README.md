@@ -5,4 +5,4 @@ Simple web-server
 - NGiNX
 - Wordpress
 - MariaDB
-- - phpMyAdmin
+-- phpMyAdmin
