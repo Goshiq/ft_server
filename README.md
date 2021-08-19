@@ -1,3 +1,8 @@
 # ft_server
-Simple web-server with SSL using docker technology
-Docker, NGiNX, Wordpress, MariaDB, phpMyAdmin
+Simple web-server 
+- SSL
+- Docker
+- NGiNX
+- Wordpress
+- MariaDB
+- - phpMyAdmin
