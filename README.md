@@ -1,6 +1,6 @@
 # ft_server
-Simple web-server 
-- SSL
+Simple web-server with SSL.
+Used:
 - Docker
 - NGiNX
 - Wordpress
